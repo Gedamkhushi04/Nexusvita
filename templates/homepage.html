@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HealthCure</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color:#FCFFC1;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+       
+
+        .navbar {
+            background: linear-gradient(45deg, #8E1616, #000000);
+            transition: all 0.4s;
+        }
+
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .navbar-nav .nav-link {
+            font-size: 18px;
+            color: #FCFFC1 !important;
+            transition: color 0.3s;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #FFC107 !important;
+        }
+
+        .header-title {
+            background: linear-gradient(45deg, #8E1616, #000000);
+            color: white;
+            padding: 24px;
+            border-radius: 10px;
+        }
+
+        .section-title {
+            background: linear-gradient(45deg, #8E1616, #000000);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .card {
+            transition: transform 0.3s ease-in-out;
+            border: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            background-color: #000000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .card-body p{
+            font-size: 18px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">HealthCure</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/breastcancer">Breast Cancer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/diabetes">Diabetes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/heartdisease">Heart Disease</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center my-4">
+        <h1 class="header-title">HealthCure - An All-in-One Medical Solution</h1>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center section-title">3 Disease Detections</h2>
+        <div class="row my-4">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3 class="text-center">Breast Cancer Detection</h3>
+                    <a href="/breastcancer"><img src="../static/icons/breastcancer.png" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3 class="text-center">Diabetes Detection</h3>
+                    <a href="/diabetes"><img src="../static/icons/diabetes.png" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3 class="text-center">Heart Disease Detection</h3>
+                    <a href="/heartdisease"><img src="../static/icons/heartdisease.png" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center section-title">AI in Healthcare</h2>
+        <div class="card">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <p>Artificial Intelligence (AI) in healthcare has the potential to revolutionize patient care and 
+                        administrative processes. AI-driven technologies help in disease diagnosis and treatment 
+                        recommendation, making healthcare more efficient.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="../static/healthcure.png" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center section-title">Machine Learning</h2>
+        <div class="card">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="card-body"></div>
+                <p>Machine Learning plays a crucial role in healthcare by enabling precision medicine and predictive
+                analytics. It allows medical professionals to analyze vast datasets for improved patient outcomes.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="../static/ml.png" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center section-title">Natural Language Processing</h2>
+        <div class="card">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="card-body"></div>
+                <p>Natural Language Processing (NLP) helps in processing and understanding medical records and 
+                clinical documentation. It enables AI-driven analysis for better insights in the healthcare industry.</p>
+            </div>
+        
+            <div class="col-md-6 text-center">
+                <img src="../static/nlp.jpg" class="img-fluid rounded" style="height:300px;">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Made with ❤ by our team (Manasi, Khushi, Ajay)</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
